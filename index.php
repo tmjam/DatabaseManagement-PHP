@@ -6,7 +6,12 @@
     </head>
     <body>
         <?php
-        // put your code here
+           include 'lib/class.config.php';
+           include 'lib/class.database.php';
+           
+           $db = new database();
+           $db->GetData();
+           
         ?>
     </body>
 </html>
